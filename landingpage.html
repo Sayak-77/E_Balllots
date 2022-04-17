@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OnlineVoting</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">E-Ballots</a>
+        <a href="#" class="log">'Justice, Equality, Fraternity, Liberty, Secularity'</a>
+        <div class="mean-toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Results</a></li>
+                <li><a href="#">Reach Us</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <hr style="height:5px;background-color:#fa1b53;margin-top:5%;border: #fa1b53 solid;">
+<div class="maintext">
+    <p> In a democracy, a government is chosen by voting in an election: a way for an electorate to elect, i.e., choose,
+        among several candidates for rule. However, more than likely, elections will be between two opposing parties.
+        These two will be the most established and the most popular. For example, in the US the competition is between
+        the Republicans and the Democrats. In an indirect democracy voting is the method by which the person elected
+        (in charge) represents their policies and party, whilst making decisions, in regard to other authorities.
+        For example, in the UK the prime minister has to make decisions in regard to the House Of Commons and House
+        Of Lords. direct democracy, is the complete opposite, the person elected, has more independent control and does
+        not need to get policies passed throughout the government.</p>
+</div>
+
+
+
+<div class="buttons">
+    <div class="mainbutton">
+        <p>Click here to find out the results of the latest online voting drive</p>
+        <button>click me</button>
+    </div>
+    <div class="mainbutton">
+        <p>Click here to log in to your account in order to proceed with voting</p>
+        <button>click me</button>
+    </div>
+    <div class="mainbutton">
+        <p>Click here to log in to your admin account in order to manage the voting process </p>
+        <button>click me</button>
+    </div>
+</div>
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+</script>
+  <script type="text/javascript">
+      $(document).ready(function()
+      {
+          $('.mean-toggle').click(function()
+        {
+              $('.mean-toggle').toggleClass('active')
+              $('nav').toggleClass('active')
+        })
+      })
+    </script>
+</body>
+</html>
