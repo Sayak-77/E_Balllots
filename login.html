@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset = "utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="loginstyles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a2dee345c3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">e-Ballots.io</div>
+        <div class="omg"></div>
+        <form action="logincheck.php" method="post">
+     	<h2>LOGIN</h2>
+     	<?php if (isset($_GET['error'])) { ?>
+     		<p class="error"><?php echo $_GET['error']; ?></p>
+     	<?php } ?>
+     	<label>User Name</label>
+     	<input type="text" name="uname" placeholder="User Name"><br>
+
+     	<label>Password</label>
+     	<input type="password" name="password" placeholder="Password"><br>
+
+     	<button type="submit"><a style="position:relative;bottom:4px;">Login</a></button>
+          <a href="signup.php" class="ca">Create an account</a>
+     </form>
+     <div class="found" style="position:relative;bottom:80%;left:40%;font-size: 20px;font-weight: 400;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     ">
+       <a href="https://www.termsandconditionsgenerator.com/live.php?token=8XFhvYFUx0kgAFgn29vS1zeZyB9tPKOq" target="_blank" 
+       style="text-decoration: none;position: relative;left:2.5%;"><p>Terms and Conditions</p></a>
+       <a href="#" target="_blank"style="text-decoration:none;position:relative;bottom:43px;left:15%;"><p>Policy</p></a>
+     </div>
+     <script type="text/javascript">
+       function set()
+       {
+         alert("Please Login first or Create a New_User Account..!");
+       }
+
+     </script>
+
+        </body>
+        </html>
