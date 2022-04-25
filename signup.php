@@ -4,42 +4,15 @@
         <meta charset = "utf-8" />
         <title></title>
         <link rel="stylesheet" type="text/css" href="signstyle.css">
-        <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/a2dee345c3.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="container background-Orange">
-            <header class="row" id="main">
-              <div class="large-2 column">
-              <div class="brand">
-                <hi><a href="#"></a></hi>
-              </div>
-              <div class="brand1">
-                <hi><a href="#"></a></hi>
-              </div>
-              </div>
-              </div>
-              <nav id="main" class="large-8">
-                <ul>
-                    <a class="tot">devǝlopersHu𐐒.io</a>
-                    <li><a href="welcome.php">Home</a></li>
-                    <li><a onclick="get()">About</a></li>
-                    <li><a onclick="get()">Services</a></li>
-                    <li><a onclick="get()">Scope</a></li>
-                    <li><a href="login.php"><button class="btn btn-smg" style="position:relative;left:28.92pc;">Login</button></a></li>
-                    <div class="search-box">
-                      <input class="search-txt" type="text" placeholder="Search">
-                      <a href="#" class="search search-btn"><i class="fab fa-searchengin"></i></a>
-                    </div>
-                </ul>
-              </nav>
-        </header>
+     <div class="container">e-Ballots.io</div>
         <div class="omg"></div>
      <form action="signupcheck.php" method="post">
      	<h2>REGISTER</h2>
@@ -122,14 +95,16 @@
                  name="re_password" 
                  placeholder="Re-Enter_Password"><br>
 
-     	<button type="submit"><a style="position:relative;bottom:4px;">Register</a></button>
+     	<button type="submit"><a style="position:relative;bottom:12%;font-weight:600;">Register</a></button>
+          <button type="submit" class="cool"><a href="login.php">LOGIN</a></button>
           <a href="login.php" class="ca">Already have an account?</a>
      </form>
-     <script type="text/javascript">
-     function get()
-     {
-          alert("Please Register as New_User first or Login");
-     }
-     </script>
+     <div class="found" style="width:fit-content;position: relative;bottom:68%;left: 40%;">
+    <ul>
+      <li><a href="https://www.termsandconditionsgenerator.com/live.php?token=8XFhvYFUx0kgAFgn29vS1zeZyB9tPKOq" target="_blank" 
+        style="text-decoration: none;position: relative;height:0"><p>Terms and Conditions</p></a></li>
+      <li><a href="https://www.privacypolicygenerator.info/live.php?token=dO2WQROjWRNf8Tg6FBKGcfDsbLNWptwr" target="_blank" 
+        style="text-decoration: none;position: relative;left:72%;height:0"><p>Policy</p></a></li>
+    </ul>
 </body>
 </html>

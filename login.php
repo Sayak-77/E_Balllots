@@ -31,19 +31,13 @@
      	<button type="submit"><a style="position:relative;bottom:4px;">Login</a></button>
           <a href="signup.php" class="ca">Create an account</a>
      </form>
-     <div class="found" style="position:relative;bottom:80%;left:40%;font-size: 20px;font-weight: 400;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     ">
-       <a href="https://www.termsandconditionsgenerator.com/live.php?token=8XFhvYFUx0kgAFgn29vS1zeZyB9tPKOq" target="_blank" 
-       style="text-decoration: none;position: relative;left:2.5%;"><p>Terms and Conditions</p></a>
-       <a href="#" target="_blank"style="text-decoration:none;position:relative;bottom:43px;left:15%;"><p>Policy</p></a>
-     </div>
-     <script type="text/javascript">
-       function set()
-       {
-         alert("Please Login first or Create a New_User Account..!");
-       }
-
-     </script>
-
-        </body>
-        </html>
+     <div class="found" style="width:fit-content;position: relative;bottom: 80%;left: 40%;">
+    <ul>
+      <li><a href="https://www.termsandconditionsgenerator.com/live.php?token=8XFhvYFUx0kgAFgn29vS1zeZyB9tPKOq" target="_blank" 
+        style="text-decoration: none;position: relative;right:6%;bottom:32%;"><p>Terms and Conditions</p></a></li>
+      <li><a href="https://www.privacypolicygenerator.info/live.php?token=dO2WQROjWRNf8Tg6FBKGcfDsbLNWptwr" target="_blank" 
+        style="text-decoration: none;position: relative;left:70%;bottom: 32%;"><p>Policy</p></a></li>
+    </ul>
+    </div>
+   </body>
+  </html>
