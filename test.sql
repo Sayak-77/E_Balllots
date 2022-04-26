@@ -34,7 +34,7 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
   `e_mail` varchar(40) NOT NULL,
-  `dept` varchar(255) NOT NULL,
+  `data` varchar(255) NOT NULL,
   `num` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -42,9 +42,9 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `user_name`, `password`, `name`, `e_mail`, `dept`, `num`) VALUES
-(1, 'he', 'qwerty', 'he','he@yahoo.com','university of california',8756214566),
-(2, 'ali', 'waah', 'ali','ali@gmail.com','michigan university',6007891662);
+INSERT INTO `users` (`id`, `user_name`, `password`, `name`, `e_mail`, `data`, `num`) VALUES
+(1, 'he', 'qwerty', 'he','he@yahoo.com','YCV1065477',8756214566),
+(2, 'ali', 'waah', 'ali','ali@gmail.com','YCV9067889',6007891662);
 
 --
 -- Indexes for dumped tables

@@ -36,16 +36,16 @@
                       placeholder="Name"><br>
           <?php }?>
 
-          <label>School / College / University</label>
+          <label>Voter ID</label>
           <?php if (isset($_GET['name'])) { ?>
                <input type="text" 
-                      name="edu" 
-                      placeholder="Stockholm University"
-                      value="<?php echo $_GET['edu']; ?>"><br>
+                      name="vote" 
+                      placeholder="YCV0164822"
+                      value="<?php echo $_GET['vote']; ?>"><br>
           <?php }else{ ?>
                <input type="text" 
-                      name="edu" 
-                      placeholder="Stockholm University"><br>
+                      name="vote" 
+                      placeholder="YCV0164822"><br>
           <?php }?>
 
           <label>Email</label>

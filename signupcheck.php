@@ -3,7 +3,7 @@ session_start();
 include "db_conn.php";
 
 if (isset($_POST['uname']) && isset($_POST['password'])
-    && isset($_POST['name']) && isset($_POST['re_password']) && isset($_POST['e-mail']) && isset($_POST['edu']) && isset($_POST['phone'])) {
+    && isset($_POST['name']) && isset($_POST['re_password']) && isset($_POST['e-mail']) && isset($_POST['vote']) && isset($_POST['phone'])) {
 
 	function validate($data){
        $data = trim($data);
@@ -18,10 +18,10 @@ if (isset($_POST['uname']) && isset($_POST['password'])
 	$re_pass = validate($_POST['re_password']);
 	$name = validate($_POST['name']);
 	$email= validate($_POST['e-mail']);
-	$cllg= validate($_POST['edu']);
+	$voter= validate($_POST['vote']);
 	$mob= validate($_POST['phone']);
 
-	$user_data = 'uname='. $uname. '&name='. $name. '&e-mail='. $email. '&edu='. $cllg. '&phone='. $mob;
+	$user_data = 'uname='. $uname. '&name='. $name. '&e-mail='. $email. '&vote='. $voter. '&phone='. $mob;
 
 
 	if (empty($uname)) {
@@ -39,7 +39,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])
         header("Location: signup.php?error=E_Mail is required!&$user_data");
 	    exit();
 	}
-	else if(empty($cllg)){
+	else if(empty($voter)){
         header("Location: signup.php?error=Education Field should be entered!&$user_data");
 	    exit();
 	}
@@ -63,8 +63,8 @@ if (isset($_POST['uname']) && isset($_POST['password'])
         header("Location: signup.php?error=Invalid Mobile Number!&$user_data");
 	    exit();
 	}
-	else if(!preg_match("/^[a-zA-Z\s]+$/",$cllg)){
-        header("Location: signup.php?error=Invalid Educational Institution.Numbers or Special Characters should be avoided!&$user_data");
+	else if(strlen($_POST['vote'])<=8){
+        header("Location: signup.php?error=Voter ID should contain 10 alphanumeric characters!&$user_data");
 	    exit();
 	}
 	else if(strlen($_POST['password'])<=8){
@@ -99,13 +99,17 @@ if (isset($_POST['uname']) && isset($_POST['password'])
         $pass = md5($pass);
 
 	    $sql = "SELECT * FROM users WHERE user_name='$uname' ";
+		$my = "SELECT * FROM users WHERE data='$voter' ";
 		$result = mysqli_query($conn, $sql);
-
+		$code = mysqli_query($conn, $my);
 		if (mysqli_num_rows($result) > 0) {
 			header("Location: signup.php?error=The username is takem.Try another&$user_data");
-	        exit();
-		}else {
-           $sql2 = "INSERT INTO users(user_name, password, name, e_mail,dept,num) VALUES('$uname', '$pass', '$name', '$email','$cllg','$mob')";
+	        exit();}
+		else if (mysqli_num_rows($code) > 0) {
+			header("Location: login.php?error=The Voted ID is already Registered.Please login using your credentials!&$user_data");
+			exit();
+		} else {
+           $sql2 = "INSERT INTO users(user_name, password, name, e_mail,data,num) VALUES('$uname', '$pass', '$name', '$email','$voter','$mob')";
            $result2 = mysqli_query($conn, $sql2);
            if ($result2) {
            	 header("Location: signup.php?success=Your account has been created successfully.Please login using your credentials!!");
