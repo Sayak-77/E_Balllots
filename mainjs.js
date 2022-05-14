@@ -24,7 +24,7 @@ function voteMade(a){
       if (confirm("You want to vote for Congress Party ?"))
       {
         checked = 1;
-        alert("You just casted a vote for Congress Party. THANK YOU FOR VOTING.!!");
+        alert("You just casted a vote for Indian National Congress Party. THANK YOU FOR VOTING.!!");
       }
     }
     else
