@@ -6,11 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
-
-/*NAVIGATION START*/
-
+/*NAVIGATION BAR START*/
 :root {
-  --color-1:#e91e63;
+  --color-1: #a142f5;
 }
 
 .navcontainer{
@@ -21,7 +19,6 @@
 .navrow{
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .align-items-center{
@@ -46,7 +43,8 @@
 a{
   text-decoration: none;
 }
-header .navlogo a{
+
+.header .navlogo a{
   font-size: 45px;
   color: #ffffff;
   text-transform: capitalize;
@@ -70,15 +68,19 @@ header .navlogo a{
   text-transform: capitalize;
   transition: all 0.5s ease;
 }
+
 .header .nav ul li a:hover,
 .header .nav ul li a.active{
   color: #ffffff;
+
 }
+
 .header #nav-check{
   position: absolute;
   opacity: 0;
   pointer-events: none;
 }
+
 .nav-toggler{
   height: 34px;
   width: 44px;
@@ -165,78 +167,188 @@ header .navlogo a{
   }
 }
 
-/*NAVIGATION END*/
+/*NAVIGATION BAR END*/
+
+/*MAIN BODY START*/
 
 
 body
 {
     margin: 0;
     padding: 0;
+    font-family: 'Noto+Serif+SC',sans-serif;
+    background: url(bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    box-sizing: border-box;
     background-color:#28282B ;
 }
-.container2,.container3{
-  width:auto;
-  text-align: center;
-  color: white;
-  padding: 15px;
-  font-size: 30px;
-  font-weight: bold;
 
-}
 
-.container2{
-  color: #e91e63;
-  text-shadow: 1.5px 1.5px 1.5px whitesmoke;
-  font-family: 'Audiowide', cursive;
-  
-}
-
-.container3{
-  margin: 0 10px 0 10px;
-}
-
-.lower-mid,.mid-box{
-  padding: 20px;
-  padding-bottom: 40px;
-}
-.mid-box{
+.rules{
   display: flex;
-}
-
-.container3 p{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  word-spacing: 4px;
-  font-weight:600;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+  margin-top: 50px;
+  padding: 1%;
 }
 
 
-
-.content-box1,.content-box2{
-  margin:5px;
-  text-align: justify;
-  /* border: 4px solid brown;
-  border-radius: 25px;
-  box-shadow: 1.5px 1.5px 1.5px whitesmoke; */
-}
-
-.content-box2{
-  border-radius: 25px;
-  width:50%;
-  margin: 30px;
-  padding: 15px;
+.siterules{
+  background-color: #ed254eff;
+  text-align: center;
+  padding: 4%;
+  padding-top: 1%;
+  margin-left: 6%;
+  margin-right: 4%;
+  border-radius: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 
-img {
-  float: left;
-  border: 1px solid whitesmoke;
-  border-radius: 50%;
-  box-shadow: 2px 2px 2px whitesmoke;
-  margin: 20px 30px 0px 0px;
-  shape-outside: circle();
+.submain1 {
+  font-size: 50px;
+  margin-left: 20px;
+  font-family: 'Audiowide', cursive;
+  color: white;
+  padding-bottom: 0;
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: underline;
+  text-decoration-style:wavy ;
 }
+
+
+ol li{
+  padding: 1%;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.partylogo{
+  width: 80%;
+  max-width: 400px;
+  border-radius: 2000px;
+}
+
+/*EACH PARTY PAMPHLATE START*/
+
+.pamhead{
+  font-family: 'Yeseva One', cursive;
+  padding: 20px;
+  color: white;
+}
+
+.newpartylogo{
+  width: 60%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 2000px;
+  margin-bottom: 40px;
+}
+
+
+.BJPsiterules{
+  width: 30%;
+  background-color: #c78cfa;
+  text-align: center;
+  padding: 4%;
+  padding-top: 1%;
+  margin-left: 6%;
+  margin-top: 3%;
+  margin-right: 4%;
+  border-radius: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.CONsiterules{
+  width: 30%;
+  background-color: #a142f5;
+  text-align: center;
+  padding: 4%;
+  padding-top: 1%;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-top: 3%;
+  border-radius: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.AAPsiterules{
+  width: 30%;
+  background-color: #c78cfa;
+  text-align: center;
+  padding: 4%;
+  padding-top: 1%;
+  margin-top: 3%;
+  margin-left: 6%;
+  margin-right: 4%;
+  border-radius: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  height: 570px;
+}
+
+.SAMsiterules{
+  width: 34%;
+  background-color: #a142f5;
+  text-align: center;
+  padding: 4%;
+  padding-top: 1%;
+  margin-left: 6%;
+  margin-top: 5%;
+  margin-right: 3%;
+  border-radius: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.BSPsiterules{
+  width: 34%;
+  background-color: #c78cfa;
+  text-align: center;
+  padding: 4%;
+  padding-top: 1%;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 5%;
+  border-radius: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.JDUsiterules{
+  width: 33%;
+  background-color: #a142f5;
+  text-align: center;
+  padding: 4%;
+  padding-top: 1%;
+  margin-left: 3%;
+  margin-top: 5%;
+  margin-right: 4%;
+  border-radius: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  height:570px;
+}
+
+
+
+
+
+/*EACH PARTY PAMPHLATE START*/
+
+
 
 .secondlast{
   padding: 0.5%;
@@ -244,7 +356,16 @@ img {
   background-color: orange;
 }
 
-/*FOOTER*/
+.last{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 0px;
+  margin-top: 20px;
+  /*padding-left:  0;*/
+  box-sizing: border-box;
+}
+
+/*MAIN BODY END*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -276,6 +397,7 @@ ul{
 .footer{
   background-color: #011936ff;
   padding: 40px 0;
+  margin-top: 10%;
 }
 
 .footer-col{
