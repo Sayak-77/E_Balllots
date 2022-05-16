@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Poppins:wght@300;400;500;600;700&display=swap');
-@import url(responsive.css);
+@import url('responsive.css');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 /*NAVIGATION BAR START*/
 :root {
-  --color-1: #a142f5;
+  --color-1: #e91e63;
 }
 
 .navcontainer{
@@ -216,8 +216,7 @@ body
   padding-bottom: 0;
   text-align: center;
   margin-top: 100px;
-  text-decoration: underline;
-  text-decoration-style:wavy ;
+  text-shadow: 3.5px 3.5px 3.5px blueviolet;
 }
 
 
@@ -293,7 +292,6 @@ ol li{
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   font-weight: 900;
-  height: 570px;
 }
 
 .SAMsiterules{
@@ -339,21 +337,15 @@ ol li{
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   font-weight: 900;
-  height:570px;
 }
 
-
-
-
-
 /*EACH PARTY PAMPHLATE START*/
-
-
 
 .secondlast{
   padding: 0.5%;
   text-align: center;
   background-color: orange;
+  font-weight: 600;
 }
 
 .last{
@@ -361,7 +353,6 @@ ol li{
   font-family: 'Poppins', sans-serif;
   margin-left: 0px;
   margin-top: 20px;
-  /*padding-left:  0;*/
   box-sizing: border-box;
 }
 
