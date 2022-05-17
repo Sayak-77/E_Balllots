@@ -345,7 +345,8 @@ main {
   text-align: justify;
   font-size: 25px;
   font-weight: 500;
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Ubuntu', cursive;
+  word-spacing: 4px;
   color: #e91e63;
 }
 .obj
@@ -357,7 +358,8 @@ main {
   text-align: justify;
   font-size: 25px;
   font-weight: 500;
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Ubuntu', cursive;
+  word-spacing: 4px;
   color:#e91e63
 }
 .con2
@@ -368,8 +370,9 @@ main {
   text-align: justify;
   font-size: 25px;
   font-weight: 500;
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Ubuntu', cursive;
   color: #e91e63;
+  word-spacing: 4px;
 }
 .con3
 {
@@ -380,6 +383,7 @@ main {
   text-align: justify;
   font-size: 25px;
   font-weight: 500;
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Ubuntu', cursive;
+  word-spacing: 4px;
   color: #e91e63;
 }

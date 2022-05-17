@@ -1,5 +1,5 @@
 var checked = 0;
-
+var c1=10;
 function voteMade(a){
 
   if (a == 'BJP')

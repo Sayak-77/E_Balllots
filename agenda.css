@@ -185,15 +185,11 @@ body
     box-sizing: border-box;
     background-color:#28282B ;
 }
-
-
 .rules{
   display: flex;
   margin-top: 50px;
   padding: 1%;
 }
-
-
 .siterules{
   background-color: #ed254eff;
   text-align: center;
@@ -211,15 +207,12 @@ body
 .submain1 {
   font-size: 50px;
   margin-left: 20px;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Righteous', cursive;
   color: white;
   padding-bottom: 0;
   text-align: center;
   margin-top: 100px;
-  text-shadow: 3.5px 3.5px 3.5px blueviolet;
 }
-
-
 ol li{
   padding: 1%;
   margin-top: 5px;

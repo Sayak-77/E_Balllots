@@ -1,0 +1,29 @@
+<div class="img-box"> 
+    <div id="photo1"><img src="icons/jishnu.jpeg"></div>
+    <div id="content">
+        <h1>Jishnu Sharma</h1>
+        
+        <p>A developer, skilled in working on the front end part of the website.</p>
+        <p>jishnusharma18@gmail.com</p>
+        <p>+91 8427256844</p>
+    </div>
+</div>
+<div class="img-box">
+    <div id="photo1"><img src="icons/akshat.jpeg"></div>
+    <div id="content">
+        <h1>Akshat Sharma</h1>
+        <p>A developer, skilled in working on the front end part of the website.</p>
+        <p>72.akshat@gmail.com</p>
+        <p>+91 7844991041</p>
+    </div>
+</div>
+<div class="img-box">
+    <div id="photo1"><img src="icons/sayak.jpeg"></div>
+    <div id="content">
+        <h1>Sayak Chatterjee</h1>
+        
+        <p>A backend developer. </p>
+        <p>sayakascent@gmail.com</p>
+        <p>+91 8583827009</p>
+    </div>
+</div>

@@ -168,36 +168,10 @@ section{
 .cover{
     padding: 5px 0 5px 0;
     height: 890px;
-    background: url(icons/reach.jpg);
+    background: url(icons/common.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.img-box{
-    padding: 50px 300px 50px 100px;
-    width: auto;
-    height: auto;
-    display:flex;
-}
-img{
-    width: 400px;
-    height: 400px;
-    border: 5px none whitesmoke;
-    border-radius: 50%;
-    box-shadow: 5px 5px #888888;
-}
-.img-box #content{
-    padding: 50px 100px 50px 100px;
-    width:70%;
-    background-color: lightskyblue;
-    border: solid lightskyblue;
-    border-radius: 50px;
-    box-shadow: 5px 5px #888888;
-}
-.img-box #photo1{
-    width:30%;
-    margin-right: 100px;
 }
 #content h1{
     font-size: 40px;
@@ -290,9 +264,17 @@ img{
   .last{
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
-    margin-left: 0px;
-    margin-top: 20px;
     box-sizing: border-box;
+  }
+
+  .mainhead{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
   }
   
   /*MAIN BODY END*/
@@ -327,7 +309,7 @@ img{
   .footer{
     background-color: #011936ff;
     padding: 40px 0;
-    margin-top: 10%;
+    margin-top: 2%;
   }
   
   .footer-col{
@@ -403,3 +385,93 @@ img{
   }
   
   /*FOOTER END*/
+
+  /*REACH US*/
+  .rules{
+    display: flex;
+    padding: 1%;
+    margin-left: 7%;
+  }
+  
+  .newpartylogo{
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-top: 10%;
+    border-right: 2.5px solid white;
+    border-bottom: 1.5px solid white;
+    box-shadow: 0.5px 0.5px 6px white;
+  }
+  .SAMsiterules{
+    width: 20%;
+    background-color: black;
+    text-align: center;
+    padding: 4%;
+    padding-top: 1%;
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-right: 3%;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: 3px solid wheat;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .BSPsiterules{
+    width: 20%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 4%;
+    padding-top: 1%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 2%;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: 3px solid wheat;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .JDUsiterules{
+    width: 20%;
+    background-color:black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 4%;
+    padding-top: 1%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 4%;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: 3px solid wheat;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .JDUsiterules:hover
+  {
+    transform: translate(0,-20px);
+    box-shadow: -3px 3px 7px white;
+  }
+  .BSPsiterules:hover
+  {
+    transform: translate(0,-20px);
+    box-shadow: -3px 3px 7px white;
+  }
+  .SAMsiterules:hover
+  {
+    transform: translate(0,-20px);
+    box-shadow: -3px 3px 7px white;
+  }
