@@ -55,18 +55,19 @@
     </div>
   </div>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="main.js"></script>
     <script type="text/javascript">
     google.load("visualization", "1", {packages:["corechart"]});
 google.setOnLoadCallback(drawCharts);
 function drawCharts() {
   var barData = google.visualization.arrayToDataTable([
     ['Party', 'Present Year', 'Past Year'],
-    ['AAM',  201, 151],
-    ['INC',  146, 179],
-    ['SP',   89,   55],
-    ['BJP',  228, 163],
-    ['JDU',  175, 133],
-    ['BSP',  129, 110],
+    ['AAM',  c1, 151],
+    ['INC',  c2, 179],
+    ['SP',   c3,  55],
+    ['BJP',  c4,  163],
+    ['JDU',  c5, 133],
+    ['BSP',  c6, 110],
   ]);
   // set bar chart options
   var barOptions = {

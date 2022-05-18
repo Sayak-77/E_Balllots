@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>E-Ballots</title>
-    <script src="mainjs.js"></script>
+    <script src="main.js"></script>
     <link rel="stylesheet" href="mainpagestyles.css" type="text/css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -250,7 +251,7 @@
   ScrollReveal().reveal('.submain1', { delay: 150, origin: 'right' });
   ScrollReveal().reveal('.siterules', { delay: 150, origin: 'left' });
   ScrollReveal().reveal('.voterules', { delay: 150, origin: 'right' });
-  ScrollReveal().reveal('.submain2', { delay: 100, origin: 'bottom' });
-  </script>
+  ScrollReveal().reveal('.submain2', { delay: 90, origin: 'bottom' });
+  </>
 </body>
 </html>

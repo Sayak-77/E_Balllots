@@ -35,16 +35,17 @@ CREATE TABLE `users` (
   `name` varchar(255) NOT NULL,
   `e_mail` varchar(40) NOT NULL,
   `data` varchar(255) NOT NULL,
-  `num` int(11) NOT NULL
+  `num` int(11) NOT NULL,
+  `key` int(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `user_name`, `password`, `name`, `e_mail`, `data`, `num`) VALUES
-(1, 'he', 'qwerty', 'he','he@yahoo.com','YCV1065477',8756214566),
-(2, 'ali', 'waah', 'ali','ali@gmail.com','YCV9067889',6007891662);
+INSERT INTO `users` (`id`, `user_name`, `password`, `name`, `e_mail`, `data`, `num`, `key`) VALUES
+(1, 'he', 'qwerty', 'he','he@yahoo.com','YCV1065477',8756214566,0),
+(2, 'ali', 'waah', 'ali','ali@gmail.com','YCV9067889',6007891662,0);
 
 --
 -- Indexes for dumped tables

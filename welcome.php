@@ -96,7 +96,7 @@
                                                                                                                                                                                                                                          
                                                                                                                                                                
   </h2>
-  <script src="sample.js"></script>
+  <script src="welcome.js"></script>
 </body>
 </html>
 
