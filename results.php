@@ -125,12 +125,12 @@ function drawCharts() {
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Party', 'Votes'],
-          ['AAM',    201],
-          ['INC',    146],
-          ['SP',      89],
-          ['BJP',    228],
-          ['JDU',    175],
-          ['BSP',    129]
+          ['AAM',    c1],
+          ['INC',    c2],
+          ['SP',     c3],
+          ['BJP',    c4],
+          ['JDU',    c5],
+          ['BSP',    c6]
         ]);
 
         var options = {
@@ -165,25 +165,25 @@ function drawCharts() {
 
   function drawChart() {
     var data = google.visualization.arrayToDataTable([
-      ['Year', 'AAM', 'INC'],
-      ['2012',  177,      245],
-      ['2013',  112,      77],
-      ['2014',  301,      213],
-      ['2015',  121,      342],
-      ['2016',  111,       89],
-      ['2017',  103,      139],
-      ['2018',  149,      148],
-      ['2019',  187,      166],
-      ['2020',  95,       173],
-      ['2021',  256,       99],
-      ['2022',  231,      211]
+      ['Year', 'AAM',   'INC',    'SP',   'BJP',    'JDU',    'BSP'],
+      ['2012',  177,      245,     55,     156,      121,      97  ],
+      ['2013',  112,      77 ,     59,     114,      125,      88  ],
+      ['2014',  301,      213,     66,     143,      133,      103 ],
+      ['2015',  121,      342,     51,     178,      101,      133 ],
+      ['2016',  111,       89,     98,     199,      91,       117 ],
+      ['2017',  103,      139,     87,     231,      97,       141 ],
+      ['2018',  149,      148,     79,     111,      110,      127 ],
+      ['2019',  187,      166,     71,     87,       152,      113 ],
+      ['2020',  95,       173,     76,     91,       149,      155 ],
+      ['2021',  256,       99,     58,     185,      135,      119 ],
+      ['2022',  c1,        c2,     c3,     c4,       c5,       c6  ]
     ]);
 
     var options = {
       chartArea: {
         width: '80%'
       },
-      colors: ['black', 'grey'],
+      colors: ['black','grey','brown','#0099C6','#FF9900','#329262'],
       fontName: 'Times New Roman',
       fontSize: '16',
       title: 'Polling Results',

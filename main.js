@@ -14,7 +14,7 @@ function voteMade(a){
     {
       if (confirm("You want to vote for Bhartiya Janta Party ?"))
       {
-        
+        checked=1;
         localStorage.setItem('users', JSON.stringify({name: "BJP", one: c1, two: c2, three: c3, four: ++c4, five: c5, six: c6, check: 1}));
         alert("You just casted a vote for Bhartiya Janta Party.THANK YOU FOR VOTING.!!");
       }
@@ -138,32 +138,32 @@ function update()
 {
   checked=user.check;
 }
-const tin1= setTimeout("stop1()",3000)
+const tin1= setTimeout(stop1(),3000)
 function stop1()
 {
   c4=user.four;
 }
-const tin2= setTimeout("stop2()",3000)
+const tin2= setTimeout(stop2(),3000)
 function stop2()
 {
   c3=user.three;
 }
-const tin3= setTimeout("stop3()",3000)
+const tin3= setTimeout(stop3(),3000)
 function stop3()
 {
   c2=user.two;
 }
-const tin4= setTimeout("stop4()",3000)
+const tin4= setTimeout(stop4(),3000)
 function stop4()
 {
   c1=user.one;
 }
-const tin5= setTimeout("stop5()",3000)
+const tin5= setTimeout(stop5(),3000)
 function stop5()
 {
   c5=user.five;
 }
-const tin6= setTimeout("stop6()",3000)
+const tin6= setTimeout(stop6(),3000)
 function stop6()
 {
   c6=user.six;
