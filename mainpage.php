@@ -33,11 +33,11 @@
       <nav class="nav">
         <ul>
           <li><a href="#" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="about.php">About</a></li>
           <li><a href="https://timesofindia.indiatimes.com/elections" target=”_blank”>News</a></li>
-          <li><a href="reachUs.html">Reach Us</a></li>
-          <li><a href="agenda.html">Party Agenda</a></li>
-          <li><a href="#">Logout</a></li>
+          <li><a href="reachUs.php">Reach Us</a></li>
+          <li><a href="agenda.php">Party Agenda</a></li>
+          <li><a href="logout.php">Logout</a></li>
         </ul>
       </nav>
 </header>
@@ -56,7 +56,7 @@
 <div class="buttons">
   <div class="mainbutton">
       <p>Click here to find out the results of the latest online voting drive</p>
-      <button><b><a href="results.html" target="_blank" style="text-decoration: none; color: black;">Results</a></b></button>
+      <button><b><a href="results.php" target="_blank" style="text-decoration: none; color: black;">Results</a></b></button>
   </div>
 </div>
 
@@ -246,12 +246,12 @@
   });
 
   ScrollReveal().reveal('.header', { delay: 80, origin: 'top' });
-  ScrollReveal().reveal('.maintext', { delay: 120, origin: 'top' });
+  ScrollReveal().reveal('.maintext', { delay: 120, origin: 'right' });
   ScrollReveal().reveal('.buttons', { delay: 130, origin: 'bottom' });
   ScrollReveal().reveal('.submain1', { delay: 150, origin: 'right' });
   ScrollReveal().reveal('.siterules', { delay: 150, origin: 'left' });
   ScrollReveal().reveal('.voterules', { delay: 150, origin: 'right' });
   ScrollReveal().reveal('.submain2', { delay: 90, origin: 'bottom' });
-  </>
+  </script>
 </body>
 </html>

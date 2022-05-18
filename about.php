@@ -30,11 +30,11 @@
         </label>
         <nav class="nav">
           <ul>
-            <li><a href="mainpage.html">Home</a></li>
+            <li><a href="mainpage.php">Home</a></li>
             <li><a href="#" class="active">About</a></li>
             <li><a href="https://timesofindia.indiatimes.com/elections" target=”_blank”>News</a></li>
-            <li><a href="reachUs.html">Reach Us</a></li>
-            <li><a href="agenda.html">Party Agenda</a></li>
+            <li><a href="reachUs.php">Reach Us</a></li>
+            <li><a href="agenda.php">Party Agenda</a></li>
             <li><a href="logout.php">Logout</a></li>
           </ul>
         </nav>

@@ -1,69 +1,25 @@
-body
-{
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #2b2b2b;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: black;
-}
-h1
-{
-    position:absolute;
-    transform: translate(10px,0);
-    margin:20px 0 0;
-    font-size: 4.5em;
-    font-weight: 900;
-    color: white;
-    z-index: 1;
-    overflow: hidden;
-}
-h1 span
-{
-    color: #ff022c;
-}
-h1:before
-{
-    content: '';
-    position:absolute;
-    left: 110%;
-    width: 120%;
-    height: 100%;
-    background: linear-gradient(90deg,transparent 0%,#000 5%,#000 100%);
-    animation: animate 6.3s linear forwards;
-    animation-delay: 1.7s;
-}
-@keyframes animate 
-{
-    0%
-    {
-        left: 110%;
+  }
+  
+  .disppear{
+    animation: vanish 8s forwards;
+  }
+  @keyframes vanish {
+    100%{
+      opacity: 0;
+      visibility: hidden;
     }
-    100%
-    {
-        left: -20%;
-    }
-}
-video
-{
-    position:absolute;
-    transform: translate(50px,0);
-    top: 10px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 2;
-    pointer-events: none;
-    mix-blend-mode: screen;
-}
-.god
-{
-    font-size: 3pc;
-    transform: translate(-10px,-150px);
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    font-family: 'Righteous', cursive;
-    font-weight: 700;
-    position: absolute;
-}
+  }
