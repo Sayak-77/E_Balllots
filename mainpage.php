@@ -56,7 +56,7 @@
 <div class="buttons">
   <div class="mainbutton">
       <p>Click here to find out the results of the latest online voting drive</p>
-      <button><a href="results.php" target="_blank" style="text-decoration: none; color: black;">Results</a></button>
+      <a href="results.php" target="_blank" style="text-decoration: none; color: black;"><button><b>Results</b></button></a>
   </div>
 </div>
 

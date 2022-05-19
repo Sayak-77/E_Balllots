@@ -48,12 +48,12 @@
   <div class="waah1">
     <p>How was your experience on the website ? Tell us in the form below</p>
     <div clas="buttonalign">
-      <a href="#"><button class="button"><span>Feedback</span></button></a>
+      <a href="https://forms.gle/9QhHkV4a9ccWrp8K8"><button class="button"><span>Feedback</span></button></a>
     </div>
   </div>
   <div class="waah1">
     <p>Like our website ? Get  one for yourself by clicking below</p>
-    <a href="#"><button class="button"><span>Contact Us</span></button></a>
+    <a href="https://forms.gle/nXsQvL9jYVSxM3bm6"><button class="button"><span>Contact Us</span></button></a>
   </div>
 </div>
 </div>
