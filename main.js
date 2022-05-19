@@ -1,10 +1,10 @@
 var checked = 0;
-var c1=201;
-var c2=146;
-var c3=89;
-var c4=228;
-var c5=175;
-var c6=129;
+var c1=201;  //AAP
+var c2=146;  //INC
+var c3=89;  //SP
+var c4=228; //BJP
+var c5=175; //JDU
+var c6=129;  //BSP
 var str;
 function voteMade(a){
 
@@ -134,10 +134,7 @@ function valid()
 }
 const user=JSON.parse(localStorage.getItem('users'));
 const h=setTimeout("update()",1000);
-function update()
-{
-  checked=user.check;
-}
+
 const tin1= setTimeout(stop1(),3000)
 function stop1()
 {
