@@ -21,7 +21,7 @@ function voteMade(a){
     }
     else
     {
-      alert("You have already casted a vote")
+      alert("You have already casted a vote. Thank You..!")
     }
   }
   else if (a == 'CON')
@@ -37,7 +37,7 @@ function voteMade(a){
     }
     else
     {
-      alert("You have already casted a vote")
+      alert("You have already casted a vote. Thank You..!")
     }
   }
 
@@ -53,7 +53,7 @@ function voteMade(a){
   }
   else
   {
-    alert("You have already casted a vote")
+    alert("You have already casted a vote. Thank You..!")
   }
   }
 
@@ -69,7 +69,7 @@ function voteMade(a){
   }
   else
   {
-    alert("You have already casted a vote")
+    alert("You have already casted a vote. Thank You..!")
   }
   }
   
@@ -85,7 +85,7 @@ function voteMade(a){
   }
   else
   {
-    alert("You have already casted a vote")
+    alert("You have already casted a vote. Thank You..!")
   }
 }
 
@@ -101,7 +101,7 @@ else if (a == 'JDU')
   }
    else
    {
-     alert("You have already casted a vote")
+     alert("You have already casted a vote. Thank You..!")
    }
   }
 
@@ -117,7 +117,7 @@ else if (a == 'JDU')
   }
   else
    {
-     alert("You have already casted a vote")
+     alert("You have already casted a vote. Thank You..!")
    }
 }
 }
@@ -134,7 +134,10 @@ function valid()
 }
 const user=JSON.parse(localStorage.getItem('users'));
 const h=setTimeout("update()",1000);
-
+function update()
+{
+  checked=user.check;
+}
 const tin1= setTimeout(stop1(),3000)
 function stop1()
 {
